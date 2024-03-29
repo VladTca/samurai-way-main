@@ -11,7 +11,7 @@ export const Post = (props) => {
       {props.message}
       <div>
         <span>Like!</span>
-        <span>{props.count}</span>
+        <span>{props.likesCount}</span>
       </div>
       <div>
         <span>Dislike</span>

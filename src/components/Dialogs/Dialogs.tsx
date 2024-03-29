@@ -46,6 +46,36 @@ export const Dialogs = () => {
       name: "Vladimir",
     },
   ];
+  let messagesData = [
+    {
+      id: 1,
+      message: "Hi",
+    },
+    {
+      id: 2,
+      message: "How are you?",
+    },
+    {
+      id: 3,
+      message: "Yo",
+    },
+    {
+      id: 4,
+      message: "Yo",
+    },
+    {
+      id: 5,
+      message: "Yo",
+    },
+    {
+      id: 6,
+      message: "Yo",
+    },
+    {
+      id: 7,
+      message: "Yo",
+    },
+  ];
 
   return (
     <div className={s.dialogs}>
@@ -59,11 +89,11 @@ export const Dialogs = () => {
         <DialogItem name={dialogsData[6].name} id={dialogsData[6].id} />
       </div>
       <div className={s.messages}>
-        <Message message="Hi" />
-        <Message message="How are you?" />
-        <Message message="Yo" />
-        <Message message="Yo" />
-        <Message message="Yo" />
+        <Message message={messagesData[0].message} />
+        <Message message={messagesData[1].message} />
+        <Message message={messagesData[2].message} />
+        <Message message={messagesData[3].message} />
+        <Message message={messagesData[4].message} />
       </div>
     </div>
   );
