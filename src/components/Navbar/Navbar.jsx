@@ -19,7 +19,7 @@ export const Navbar = () => {
           to="dialogs"
           className={(navData) => (navData.isActive ? s.activeLink : s.item)}
         >
-          Messanges
+          Messange-s
         </NavLink>
       </div>
       <div className={s.item}>
