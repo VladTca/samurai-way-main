@@ -18,16 +18,3 @@
     background-color: cornflowerblue;
 
 }
-.header {
-
-    grid-area: h;
-    background-color: green;
-}
-.nav{
-
-    grid-area: n;
-    background-color: burlywood;
-}
-
-
-
